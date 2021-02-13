@@ -1,4 +1,6 @@
 /***********************tagselector*********************/
+
+
 html,
 body {
   border: 0;
@@ -6,12 +8,16 @@ body {
   margin: 0%;
   background: rgb(184, 222, 235);
   font-family: 'Merriweather', serif;
+
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 
 
 h1 {
-  font-size: 750%;
+  font-size: 650%;
   font-family: 'Dancing Script', cursive;
   color: #ffffff;
   margin-top: 0%;
@@ -19,10 +25,12 @@ h1 {
   margin-bottom: 0%;
 }
 
+
+
 h2 {
 
   font-family: 'Bebas Neue', cursive;
-  font-size: 600%;
+  font-size: 400%;
 
   color: #ffffff;
 
@@ -32,7 +40,7 @@ h3 {
   border: 0;
   padding: 0%;
   margin: 0%;
-  font-size: 350%;
+  font-size: 250%;
 
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -41,14 +49,14 @@ h4 {
   border: 0;
   padding: 0%;
   margin: 3%;
-  font-size: 250%;
+  font-size: 200%;
   color: rgb(255, 255, 255);
 
   font-family: 'Dancing Script', cursive;
 }
 
 p {
-  font-size: 150%;
+  font-size: 130%;
   font-family: 'Josefin Sans', sans-serif;
   color: white;
 
@@ -78,11 +86,15 @@ hr {
 
 .top-container {
 
+
   position: relative;
   text-align: center;
   width: 80%;
   margin: 0 10% 0 10%;
-  padding-bottom: 39%;
+  padding-bottom: 43%;
+
+
+
 }
 
 .middle-container {
@@ -93,26 +105,6 @@ hr {
 
 }
 
-.big-div {
-  width: 80%;
-}
-
-.topcloud {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 20%;
-  padding-bottom: 30%;
-  padding-right: 9%;
-}
-
-.bottomcloud {
-  position: absolute;
-  bottom: 0;
-  left: 3%;
-  width: 20%;
-  padding-bottom: 20%;
-}
 
 .mountain {
   position: absolute;
@@ -124,10 +116,11 @@ hr {
 
 
 .circular {
-  
+
   position: absolute;
-left: 0;
+  left: 0;
   width: 100%;
+
   padding-left: 0%;
   padding-right: 0%;
   padding-top: 5%;
@@ -139,20 +132,17 @@ left: 0;
 .skills {
   margin-top: 10%;
 }
+
 .obbiettivo {
 
   width: 100%;
   margin-top: 0;
   left: 0;
   font-weight: 900;
-  font-size: 3rem;
+
 
 }
 
-.noi {
-  line-height: 80%;
-
-}
 
 .video {
   width: 80%;
@@ -274,19 +264,20 @@ left: 0;
 }
 
 .contact-me0 {
-  padding-top: 23%;
+  padding-top: 28%;
   margin-bottom: 0;
-  font-size: 200%;
+
 }
+
 .contact-me {
   margin-bottom: 0;
-  font-size: 300%;
+
 
 }
 
 .contact-me1 {
-  margin-bottom: 5%;
-  font-size: 100%;
+  margin-bottom: 8%;
+
   font-weight: 900;
   color: rgb(255, 255, 255);
 
@@ -310,10 +301,10 @@ left: 0;
   border-radius: 12px;
   font-family: Arial;
   color: #ffffffdc;
-  font-size: 40px;
+  font-size: 300%;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
- }
+}
 
 
 .contattaci:hover {
@@ -343,3 +334,80 @@ left: 0;
 }
 
 /***************************idselector*************/
+
+@media screen and (max-width: 750px) {
+
+  h1 {
+    font-size: 350%
+  }
+
+  .mountain {
+
+    width: 80%;
+    left: 10%;
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  h3 {
+    font-size: 140%;
+  }
+
+  h4 {
+    font-size: 160%;
+
+  }
+
+  p {
+    font-size: 90%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .foto {
+    width: 100%;
+  }
+
+  .marketing {
+    width: 100%;
+  }
+
+  .contact-me0 {
+    padding-top: 15%;
+  }
+
+
+  .contattaci {
+    font-size: 130%;
+  }
+
+  hr {
+    border-top: rgb(255, 232, 232) dotted 8px;
+    background-color: none;
+    width: 10%;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    margin: 0;
+    margin: 5% 45% 2% 45%;
+
+
+  }
+
+  .top-container {
+
+
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 0 10% 0 10%;
+    padding-bottom: 50%;
+
+
+
+  }
+}
